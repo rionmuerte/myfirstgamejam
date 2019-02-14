@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DialogueBox : MonoBehaviour
 {
@@ -37,17 +38,25 @@ public class DialogueBox : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
             ResetImages();
 
             name = parser.GetName(lineNum);
             dialogue = parser.GetSpeech(lineNum);
             pose = parser.GetPose(lineNum);
-
             DisplayImages();
-
+            if(lineNum >= endLine)
+            {
+                SceneManager.LoadScene("SampleScene");
+            }
             lineNum++;
+        }
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            ResetImages();
+            SceneManager.LoadScene("SampleScene");
         }
     }
 
