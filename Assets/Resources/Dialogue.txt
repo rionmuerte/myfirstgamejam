@@ -1,0 +1,35 @@
+Colin,"What... is going on?",Neutral,Neutral,Neutral
+Anais,"Oh, hey Colin, thanks for coming! Are you ready to test out the obstacle course?",Angry,Neutral,Neutral
+Colin,"Since when were we doing an obstacle course?",MouthOpen,Neutral,Neutral
+Anais,"Since we've been talking about it every club meeting.",Neutral,Frown,Neutral
+Colin,"You know I sleep through those.",Neutral,Neutral,Neutral
+Anais,"Which is exactly why you should be the person to test it! We need to make sure it's not dangerous before we release it to the public.",Neutral,Neutral,Neutral
+Colin,"So you thought, 'have the Canadian do it, he'll never sue,' eh?",Neutral,Neutral,Neutral
+Anais,"I'll stop telling Canadian jokes for a month.",Neutral,Grin,Neutral
+Colin,"You don't know any Canadian jokes.",Neutral,Neutral,Neutral
+Jon,"I know Canadian jokes!",Neutral,Neutral,Neutral
+Colin,"Ugh! What are you doing here?",Angry,Neutral,Neutral
+Jon,"Ana texted me to help. I see you crawled out of your igloo today. Good job.",Neutral,Neutral,Neutral
+Colin,"...",Neutral,Neutral,Neutral
+Jon,"Did you eat your cereal dry again? I keep telling you, we sell our milk in cartons.",Neutral,Neutral,Neutral
+Colin,"...",Neutral,Neutral,Neutral
+Jon,"Did your moose get a flat on the way over?",Neutral,Neutral,Neutral
+Colin,"I was hoping for some more original content this week, Jon.",MouthOpen,Neutral,Neutral
+Jon,"American hockey fans are nicer than Canadian ones.",Neutral,Neutral,Neutral
+Colin,"What's American hockey?",Neutral,Neutral,Neutral
+Jon,"It- It-",Neutral,Neutral,Surprised
+Anais,"Colin won that one, Jon.",Neutral,Neutral,Neutral
+Jon,"Give me five minutes to think of a comeback. I'll see you downfield, muchacho.",Neutral,Neutral,Neutral
+Anais,"So are you gonna try the obstacle course? I brought Canadisc!",Neutral,Grin,Neutral
+Colin,"... That's not Canadisc. That's just a disc with a heart on it.",Neutral,Neutral,Neutral
+Anais,"Are you sure this isn't Canadisc? What about it does not accurately represent your country?",Neutral,Frown,Neutral
+Colin,"Okay. I'll give you that one.",Neutral,Neutral,Neutral
+Anais,"Starting line is over here!",Neutral,Neutral,Neutral
+Anais,"So you know how this works, right?",Neutral,Neutral,Neutral
+Colin,"Are those desks?",MouthOpen,Neutral,Neutral
+Anais,"Obstacles. I'm going to throw the disc downfield and you gotta catch it in the end zone. Avoid the obstacles and other flying discs.",Neutral,Neutral,Neutral
+Colin,"Wait. Jon's going to be throwing those discs at me?",MouthOpen,Neutral,Neutral
+Anais,"If you had been AWAKE during meetings you would have known it was part of the plan.",Neutral,Frown,Neutral
+Jon,"Hey, are you still waiting for the glaciers to melt?",Neutral,Neutral,Neutral
+Anais,"Ready?",Neutral,Neutral,Neutral
+Colin,"Let's get this over with.",Angry,Neutral,Neutral
