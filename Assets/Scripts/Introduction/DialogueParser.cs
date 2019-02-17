@@ -10,7 +10,7 @@ using UnityEditor;
 
 public class DialogueParser : MonoBehaviour
 {
-
+    public TextAsset file;
     List<DialogueLine> lines;
     List<Sprite> images;
 
@@ -35,9 +35,9 @@ public class DialogueParser : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string file = "Dialogue.txt";
+        // string file = "Dialogue";
         lines = new List<DialogueLine>();
-        LoadDialogue(file);
+        LoadDialogue();
         images = new List<Sprite>();
         LoadImages();
     }
@@ -71,7 +71,7 @@ public class DialogueParser : MonoBehaviour
                 pose = lines[i].poseJon;
             }
             string imageName = lines[i].name + pose;
-            Sprite image = (Sprite) Resources.Load("PNG/" + lines[i].name + "/" + imageName, typeof(Sprite));
+            Sprite image = Resources.Load<Sprite>("PNG/" + lines[i].name + "/" + imageName);
             //if(!images.Contains (image))
             //{
             //    images.Add(image);
@@ -105,11 +105,11 @@ public class DialogueParser : MonoBehaviour
     }
 
     // Function to Load the Dialogues
-    void LoadDialogue(string filename)
+    void LoadDialogue()
     {
-        string file = "Assets/Resources/" + filename;
+        // var file = Resources.Load("Dialogue.txt");
         string line;
-        StreamReader r = new StreamReader(file);
+        StringReader r = new StringReader(file.text);
 
         using(r)
         {
